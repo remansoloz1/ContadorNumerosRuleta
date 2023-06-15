@@ -1,0 +1,59 @@
+#appBg{
+    height: 420px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#appBg{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(24, 53, 92);
+}
+#appBg input[type=textfield]{
+    height: 30%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+}
+
+
+#appBg input[type=button], input[type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+#appBg .red{
+    background-color: red;
+    color: black;
+}
+#appBg .green{
+    background-color: green;
+    color: white;
+}
+#appBg .black{
+    background-color: black;
+    color: white;
+}
+#appBg .blue{
+    background-color: blue;
+    color: white;
+}
+#appBg .orange{
+    width: 22%;
+    margin-left: 25%;
+    border-radius: 10%;
+    background-color: orange;
+    color: black;
+}
