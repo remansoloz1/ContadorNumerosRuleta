@@ -10,12 +10,11 @@
 <body>
     <div id="appBg">
         <form name="ruleta">
-
-            <input id="texto" type="textfield" name="ans" value="" autocomplete="off" class="txtfld">
+            <textarea id="texto" value="" name="ans" type="textfield" placeholder="numbers..."></textarea>
             <br>
-            <input type="button" value="0" class="green" onclick="document.ruleta.ans.value+='0,'">
-            <input type="button" value="x" class="blue" onclick="copiarTodo();">
-            <input type="reset" value="C" class="orange">
+            <input  type="button" value="0" class="green" onclick="document.ruleta.ans.value+='0,'">
+            <input  type="button" value="x" class="blue" onclick="copiarTodo();">
+            <input  type="reset" value="C" class="orange">
             <br>
             <input type="button" value="1" class="red" onclick="document.ruleta.ans.value+='1,'">
             <input type="button" value="2" class="black" onclick="document.ruleta.ans.value+='2,'">
