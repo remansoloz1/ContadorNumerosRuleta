@@ -5,8 +5,3 @@ function copiarTodo(){
     document.execCommand('copy');
 }
 
-const textarea=document.querySelector("textarea");
-textarea.addEventListener("keyup",e=>{
-    let scHeight=e.target.scrollHeight;
-    textarea.computedStyleMap.height=`${scHeight}` 
-});
